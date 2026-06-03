@@ -1,0 +1,23 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch checkpoints and large files
+fine_tuned_bert/
+results/
+checkpoint-*/
+*.joblib
+!indobert_svc.joblib
+*.png
+*.csv
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+
+# OS metadata
+.DS_Store
+Thumbs.db
